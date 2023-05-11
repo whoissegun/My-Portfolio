@@ -12,12 +12,12 @@ const Projects = () => {
                     <h1 className='font-medium text-2xl  mt-[2%]'>Built With</h1>
                     <h1 className=' text-lg  mt-[2%]'>React JS, Tailwind, PostgreSQL, RESTFUL APIs</h1>
                     
-                    <div className="cta-btns  mt-[5%] flex">
-                        <button className="register-btn bg-[#3D8B83] rounded-lg w-fit px-4 py-2 ">
+                    <div className="cta-btns  mt-[5%] flex sm:pr-1">
+                        <button className="register-btn bg-[#3D8B83] rounded-lg w-[40%] px-4 py-2 sm:px-3 sm:py-1 ">
                                 <a href='https://bluew-one.vercel.app/' target="_blank" className="text-white font-bold text-lg text-center">View Site</a>
                         </button>
 
-                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-fit px-4 py-2 ml-[5%] ">
+                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-[60%] px-4 py-2 sm:px-3 sm:py-1 sm:ml-[2%] ml-[5%] ">
                                 <a href='https://github.com/whoissegun/BLUEW_GIT' target="_blank" className="text-black font-bold text-lg text-center">View On Github</a>
                         </button>
                     </div>
