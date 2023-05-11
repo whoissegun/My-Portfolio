@@ -22,7 +22,9 @@ const Navbar = () => {
                             <BsGithub className='mt-1 mr-1' />Github
                         </a>
 
-                        
+                        <a href='mailto:jojololadivine05@gmail.com' target="_blank" className=' flex font-["Poppins"]'>
+                            <SiMinutemailer className='mt-1 mr-1' />Contact Me
+                        </a>
                         
                     </ul>
 
@@ -46,6 +48,10 @@ const Navbar = () => {
 
                             <a href='https://github.com/whoissegun' target="_blank" className='flex font-["Poppins"]'>
                                 <BsGithub className='mt-1 mr-1' />Github
+                            </a>
+
+                            <a href='mailto:jojololadivine05@gmail.com' target="_blank" className=' flex font-["Poppins"]'>
+                                <SiMinutemailer className='mt-1 mr-1' />Contact Me
                             </a>
  
                         
