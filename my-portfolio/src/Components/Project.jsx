@@ -5,8 +5,8 @@ const Projects = () => {
         <div className="projects font-['Poppins']  mt-5 px-5 py-4" id='projects'>
             <h1 className='font-bold text-4xl text-center '>Projects</h1>
             <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-[10%]">
-                <img src={bluew} alt="" className='w-[60%] lg:w-[80%] sm:w-[90%]' />
-                <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[90%] pl-8 ">
+                <img src={bluew} alt="" className='w-[60%] lg:w-[80%] sm:w-[100%]' />
+                <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] pl-8 ">
                     <h1 className='text-3xl font-bold w-fit '>Environmental Services Website</h1>
                     <h1 className='description text-slate-600 w-[80%] lg:w-[90%] sm:w-[90%] mt-[3%]'>I undertook the redesign of Blue W, an environmental services company specializing in water management. My focus was on enhancing their website by refining the map services and elevating both the user experience (UX) and user interface (UI) to provide a more intuitive and visually appealing platform for users. </h1>
                     <h1 className='font-medium text-2xl  mt-[2%]'>Built With</h1>
@@ -25,8 +25,8 @@ const Projects = () => {
             </div>
 
             <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-[10%]">
-                <img src={obando} alt="" className='w-[60%] lg:w-[80%] md:w-[80%] sm:w-[90%] ' />
-                <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[90%] pl-8 ">
+                <img src={obando} alt="" className='w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] ' />
+                <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] pl-8 ">
                     <h1 className='text-3xl font-bold w-fit '>Restaurant Website</h1>
                     <h1 className='description text-slate-600 w-[80%] lg:w-[90%] md:w-[90%] sm:w-[90%]  mt-[3%]'> A full-stack restaurant website that seamlessly combines an aesthetically pleasing front-end with a robust and efficient back-end. This comprehensive platform showcases the restaurant's enticing menu, highlights customer reviews, and facilitates a streamlined online ordering system for customers' convenience.</h1>
                     <h1 className='font-medium text-2xl  mt-[2%]'>Built With</h1>
