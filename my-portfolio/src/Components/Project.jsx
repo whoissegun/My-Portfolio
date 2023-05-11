@@ -33,11 +33,11 @@ const Projects = () => {
                     <h1 className=' text-lg  mt-[2%]'>React JS, Tailwind, PostgreSQL, RESTFUL APIs,Django</h1>
                     
                     <div className="cta-btns  mt-[5%] flex">
-                        <button className="register-btn bg-[#3D8B83] rounded-lg w-fit px-4 py-2 ">
+                        <button className="register-btn bg-[#3D8B83] rounded-lg w-fit px-4 sm:px-3 sm:py-1 py-2 ">
                                 <a href='https://obando.vercel.app/' target="_blank" className="text-white font-bold text-lg text-center">View Site</a>
                         </button>
 
-                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-fit px-4 py-2 ml-[5%] ">
+                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-fit px-4 py-2 ml-[5%] sm:px-3 sm:py-1 ">
                                 <a href='https://github.com/whoissegun/obando' target="_blank" className="text-black font-bold text-lg text-center">View On Github</a>
                         </button>
                     </div>
