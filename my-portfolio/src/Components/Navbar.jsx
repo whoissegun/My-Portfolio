@@ -14,17 +14,15 @@ const Navbar = () => {
                     <ul className="right-side absolute  right-5 items-center flex gap-x-8 mt-2 sm:hidden md:hidden lg:mt-1 text-xl  font-['Poppins']">
                         
 
-                        <a href='#' className=' flex font-["Poppins"]'>
+                        <a href='#projects' className=' flex font-["Poppins"]'>
                             <BsCodeSlash className='mt-1 mr-1' />Projects
                         </a>
 
-                        <a href='#' className=' flex font-["Poppins"]'>
+                        <a href='https://github.com/whoissegun' target="_blank" className=' flex font-["Poppins"]'>
                             <BsGithub className='mt-1 mr-1' />Github
                         </a>
 
-                        <a href='#' className=' flex font-["Poppins"]'>
-                            <SiMinutemailer className='mt-1 mr-1' />Contact Me
-                        </a>
+                        
                         
                     </ul>
 
@@ -42,19 +40,19 @@ const Navbar = () => {
                         
                         <ul className={`subNavbar flex-col gap-14 h-[90vh] justify-center items-center px-14 bg-[#082f49]  ${hamMenuClicked?'flex translate-x-0':' fixed translate-x-[-100vw]'} text-2xl transition-all duration-500  `}>
 
-                            <a href='#' onClick={() => handleLinkClick()} className=' flex font-["Poppins"]'>
+                            <a href='#projects' onClick={() => handleLinkClick()} className=' flex font-["Poppins"]'>
                                 <BsCodeSlash className='mt-1 mr-1' />Projects
                             </a>
 
-                            <li className='flex font-["Poppins"]'>
+                            <a href='https://github.com/whoissegun' target="_blank" className='flex font-["Poppins"]'>
                                 <BsGithub className='mt-1 mr-1' />Github
-                            </li>
+                            </a>
  
                         
                         </ul>
                     </div>
 
-                    {/* <div className="nav-underline w-full mt-[3%] sm:mt-[5%] h-[0.1vh] bg-slate-200"></div> */}
+                    
         </>
      );
 }
