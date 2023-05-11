@@ -4,7 +4,7 @@ const Projects = () => {
     return ( 
         <div className="projects font-['Poppins']  mt-5 px-5 py-4" id='projects'>
             <h1 className='font-bold text-4xl text-center '>Projects</h1>
-            <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-[10%]">
+            <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-[5%]">
                 <img src={bluew} alt="" className='w-[60%] lg:w-[80%] sm:w-[100%]' />
                 <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] pl-8 ">
                     <h1 className='text-3xl font-bold w-fit '>Environmental Services Website</h1>
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-[10%]">
+            <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-[5%]">
                 <img src={obando} alt="" className='w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] ' />
                 <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] pl-8 ">
                     <h1 className='text-3xl font-bold w-fit '>Restaurant Website</h1>
