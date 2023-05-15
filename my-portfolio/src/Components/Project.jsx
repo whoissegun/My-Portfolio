@@ -13,11 +13,11 @@ const Projects = () => {
                     <h1 className=' text-lg  mt-[2%]'>React JS, Tailwind, PostgreSQL, RESTFUL APIs</h1>
                     
                     <div className="cta-btns  mt-[5%] flex sm:pr-1">
-                        <button className="register-btn bg-[#3D8B83] rounded-lg w-[20%] sm:w-[30%] px-4 py-2 sm:px-3 sm:py-1 ">
+                        <button className="register-btn bg-[#3D8B83] rounded-lg w-[20%] sm:w-[40%] px-4 py-2 sm:px-3 sm:py-1 ">
                                 <a href='https://bluew-one.vercel.app/' target="_blank" className="text-white font-bold text-lg text-center">View Site</a>
                         </button>
 
-                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-[30%] sm:w-[40%] px-3 py-1 sm:px-2 sm:py-1 sm:ml-[2%] ml-[5%] ">
+                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-[30%] sm:w-[50%] px-3 py-1 sm:px-2 sm:py-1 sm:ml-[2%] ml-[5%] ">
                                 <a href='https://github.com/whoissegun/BLUEW_GIT' target="_blank" className="text-black font-bold text-lg text-center">View On Github</a>
                         </button>
                     </div>
