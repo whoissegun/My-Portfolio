@@ -3,7 +3,7 @@ const Hero = () => {
     return ( 
         <div className="font-['Poppins'] px-5 relative pb-16">
 
-            <div className="hero-text mt-[10%] sm:mt-[30%] lg:mt-[20%] md:mt-[20%]">
+            <div className="hero-text mt-[10%] sm:mt-[30%] lg:mt-[20%] md:mt-[20%] ">
                 <h1 className="font-bold text-4xl sm:w-fit text-[white]">
                     Hello, I am Divine
                 </h1>
@@ -16,7 +16,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <img src={person} alt="" className="rounded-full w-[30%] lg:w-[40%] md:w-[50%] sm:w-[60%] -mt-[18%] sm:mt-0 lg:-mt-[30%] md:-mt-[35%] ml-[50%] sm:ml-[30%]" />
+            <img src={person} alt="" className="rounded-full w-[30%] lg:w-[40%] md:w-[50%] sm:w-[60%] -mt-[15%] sm:mt-0 lg:-mt-[30%] md:-mt-[35%] ml-[50%] sm:ml-[30%]" />
         </div>
      );
 }
