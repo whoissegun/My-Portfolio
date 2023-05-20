@@ -11,7 +11,7 @@ const Hero = () => {
 
                 <div className="cta-btns  mt-5">
                     <button className="register-btn bg-[#3D8B83] rounded-lg w-fit px-4 py-2 ">
-                            <a href="https://drive.google.com/file/d/1WxBkfjUo2PrMiOHAouLr97UnKrznWkxH/view?usp=sharing"  target="_blank" className="text-white font-bold text-lg text-center">View Resume</a>
+                            <a href="https://docs.google.com/document/d/1E0653oAQ5HUMHKZPnoOteC6Q0NCQvm5cBrsoPFCSBvU/edit?usp=sharing"  target="_blank" className="text-white font-bold text-lg text-center">View Resume</a>
                     </button>
                 </div>
             </div>
