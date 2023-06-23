@@ -51,7 +51,7 @@ return (
                 <img src={project.image} alt="" className='xl:w-80 2xl:w-80 md:w-96 lg:w-96 w-64' />
                 <div className="">
                     <h1 className="text-2xl font-semibold font-raleway text-white ">{project.title}</h1>
-                    <h1 className="text-lg font-medium mt-1 xl:w-96 2xl:w-96 md:w-full lg:w-full w-64 mb-2">{project.description}</h1>
+                    <h1 className="text-lg font-medium mt-1 xl:w-96 2xl:w-96 md:w-full lg:w-full w-fit mb-2">{project.description}</h1>
                     {project.languages.map((language) => (
                         <span key={language} className="text-lg font-medium mt-1 w-fit inline-block bg-[#482E2D] mr-2 px-2 py-1 rounded-lg">{language}</span>
                     ))}
