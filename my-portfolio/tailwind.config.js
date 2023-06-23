@@ -4,12 +4,23 @@ export default {
   theme: {
     screens: {
       'sm': {'max':'640px'},
-      'md': {'min':'640px','max':'768px'},
-      'lg': {'min':'768px','max':'1024px'},
-      'xl': {'min':'1024px','max':'1280px'},
-      '2xl': {'min':'1280px','max':'1536px'},
+      'md': {'min':'641px','max':'768px'},
+      'lg': {'min':'769px','max':'1024px'},
+      'xl': {'min':'1025px','max':'1280px'},
+      '2xl': {'min':'1281px'},
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+        'kanit': ['Kanit', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif'],
+        'roboto-mono': ['Roboto Mono', 'monospace'],
+        'rubik': ['Rubik', 'sans-serif'],
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

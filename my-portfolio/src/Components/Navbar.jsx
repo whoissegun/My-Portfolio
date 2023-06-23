@@ -11,18 +11,18 @@ const Navbar = () => {
             <nav className="flex px-3 pt-5  items-center  relative text-white ">
                     
 
-                    <ul className="right-side absolute  right-5 items-center flex gap-x-8 mt-2 sm:hidden md:hidden lg:mt-1 text-xl  font-['Poppins']">
+                    <ul className="right-side absolute  right-5 items-center flex gap-x-8 mt-2 sm:hidden md:hidden lg:mt-1 text-xl  ">
                         
 
-                        <a href='#projects' className=' flex font-["Poppins"]'>
+                        <a href='#projects' className=' flex '>
                             <BsCodeSlash className='mt-1 mr-1' />Projects
                         </a>
 
-                        <a href='https://github.com/whoissegun' target="_blank" className=' flex font-["Poppins"]'>
+                        <a href='https://github.com/whoissegun' target="_blank" className=' flex '>
                             <BsGithub className='mt-1 mr-1' />Github
                         </a>
 
-                        <a href='mailto:jojololadivine05@gmail.com' target="_blank" className=' flex font-["Poppins"]'>
+                        <a href='mailto:jojololadivine05@gmail.com' target="_blank" className=' flex '>
                             <SiMinutemailer className='mt-1 mr-1' />Contact Me
                         </a>
                         
@@ -42,15 +42,15 @@ const Navbar = () => {
                         
                         <ul className={`subNavbar flex-col gap-14 h-[90vh] justify-center items-center px-14 bg-[#082f49]  ${hamMenuClicked?'flex translate-x-0':' fixed translate-x-[-100vw]'} text-2xl transition-all duration-500  `}>
 
-                            <a href='#projects' onClick={() => handleLinkClick()} className=' flex font-["Poppins"]'>
+                            <a href='#projects' onClick={() => handleLinkClick()} className=' flex '>
                                 <BsCodeSlash className='mt-1 mr-1' />Projects
                             </a>
 
-                            <a href='https://github.com/whoissegun' target="_blank" className='flex font-["Poppins"]'>
+                            <a href='https://github.com/whoissegun' target="_blank" className='flex '>
                                 <BsGithub className='mt-1 mr-1' />Github
                             </a>
 
-                            <a href='mailto:jojololadivine05@gmail.com' target="_blank" className=' flex font-["Poppins"]'>
+                            <a href='mailto:jojololadivine05@gmail.com' target="_blank" className=' flex '>
                                 <SiMinutemailer className='mt-1 mr-1' />Contact Me
                             </a>
  

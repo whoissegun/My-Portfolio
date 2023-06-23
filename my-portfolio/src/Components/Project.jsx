@@ -1,50 +1,65 @@
 import bluew from '../assets/bluew.png'
 import obando from '../assets/obando.png'
+import the_library from '../assets/the_library.png'
+import breat from '../assets/breat.jpg'
+import transport from '../assets/transport.jpeg'
 const Projects = () => {
-    return ( 
-        <div className="projects font-['Poppins']  mt-5 px-5 py-4 sm:px-4" id='projects'>
-            <h1 className='font-bold text-4xl text-center '>Projects</h1>
-            <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-0 ">
-                <img src={bluew} alt="" className='w-[60%] lg:w-[80%] sm:w-[100%]' />
-                <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] pl-8 ">
-                    <h1 className='text-3xl font-bold w-fit '>Environmental Services Website</h1>
-                    <h1 className='description text-slate-600 w-[80%] lg:w-[90%] sm:w-[90%] mt-[3%]'>I undertook the redesign of Blue W, an environmental services company specializing in water management. My focus was on enhancing their website by refining the map services and elevating both the user experience (UX) and user interface (UI) to provide a more intuitive and visually appealing platform for users. </h1>
-                    <h1 className='font-medium text-2xl  mt-[2%]'>Built With</h1>
-                    <h1 className=' text-lg  mt-[2%]'>React JS, Tailwind, PostgreSQL, RESTFUL APIs</h1>
-                    
-                    <div className="cta-btns  mt-[5%] flex sm:pr-1">
-                        <button className="register-btn bg-[#3D8B83] rounded-lg w-[20%] sm:w-[40%] px-4 py-2 sm:px-3 sm:py-1 ">
-                                <a href='https://bluew-one.vercel.app/' target="_blank" className="text-white font-bold text-lg text-center">View Site</a>
-                        </button>
+    const projects = [
+        {
+            id: 1,
+            title: 'The Library',
+            description: 'A full-stack library management system with user authentication and authorization, and a REST API for CRUD operations.',
+            image: the_library,
+            languages: ['Django', 'React', 'Tailwind CSS', 'PostgreSQL'],
+            link: 'https://the-library-virid.vercel.app/'
+        },
+        {
+            id: 2,
+            title: 'Obando',
+            description: 'A restaurant website with a focus on user experience.',
+            image: obando,
+            languages: ['React', 'Tailwind CSS'],
+            link: 'https://obando.vercel.app/'
+        },
+        {
+            id: 3,
+            title: 'Breast Cancer Clasification Model',
+            description: 'A machine learning model developed to accurately distinguish between malignant and benign breast cancer cases, utilizing the comprehensive Wisconsin Breast Cancer Dataset for training and validation',
+            image: breat,
+            languages: ['Pytorch', 'Matplotlib', 'Numpy', 'Pandas', 'Scikit-learn'],
+            link: 'https://github.com/whoissegun/Breast-Cancer-Classification-Model'
+        },
+        {
+            id: 4,
+            title: 'Vehicle Recognition Model',
+            description: 'An image classification model built to accurately classify vehicles into 3 categories: cars, airplanes, and ships.',
+            image: transport,
+            languages: ['Pytorch', 'Matplotlib', 'Numpy', 'Pandas', 'Scikit-learn'],
+            link: 'https://github.com/whoissegun/Transport_Vehicle_Recognition_Model/blob/main/Transport_Vehicle_Recognition_Model.ipynb'
+        }
+    ];
 
-                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-[30%] sm:w-[50%] px-3 py-1 sm:px-2 sm:py-1 sm:ml-[2%] ml-[5%] ">
-                                <a href='https://github.com/whoissegun/BLUEW_GIT' target="_blank" className="text-black font-bold text-lg text-center">View On Github</a>
-                        </button>
-                    </div>
+    const openProject = (url) => {
+        window.open(url, "_blank");
+    }
+
+return (
+    <div className="w-full text-slate-200 flex flex-col gap-y-32 xl:mt-28 2xl:mt-28 ">
+        <h1 className="font-bold text-3xl font-montserrat text-center xl:hidden 2xl:hidden mt-28">Projects</h1>
+        {projects.map((project) => (
+            <div key={project.id} className="hover:bg-[#324B4A] hover:cursor-pointer w-fit p-4 rounded-lg flex flex-col 2xl:flex-row gap-y-8 gap-x-16 " onClick={() => openProject(project.link)}>
+                <img src={project.image} alt="" className='xl:w-80 2xl:w-80 md:w-96 lg:w-96 w-64' />
+                <div className="">
+                    <h1 className="text-2xl font-semibold font-raleway text-white ">{project.title}</h1>
+                    <h1 className="text-lg font-medium mt-1 xl:w-96 2xl:w-96 md:w-full lg:w-full w-64 mb-2">{project.description}</h1>
+                    {project.languages.map((language) => (
+                        <span key={language} className="text-lg font-medium mt-1 w-fit inline-block bg-[#482E2D] mr-2 px-2 py-1 rounded-lg">{language}</span>
+                    ))}
                 </div>
             </div>
+        ))}
+    </div>
+);
+};
 
-            <div className="project flex flex-col mt-[5%] ml-[25%] sm:ml-0">
-                <img src={obando} alt="" className='w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] ' />
-                <div className="details bg-white text-black py-4 w-[60%] lg:w-[80%] md:w-[80%] sm:w-[100%] pl-8 ">
-                    <h1 className='text-3xl font-bold w-fit '>Restaurant Website</h1>
-                    <h1 className='description text-slate-600 w-[80%] lg:w-[90%] md:w-[90%] sm:w-[90%]  mt-[3%]'> A full-stack restaurant website that seamlessly combines an aesthetically pleasing front-end with a robust and efficient back-end. This comprehensive platform showcases the restaurant's enticing menu, highlights customer reviews, and facilitates a streamlined online ordering system for customers' convenience.</h1>
-                    <h1 className='font-medium text-2xl  mt-[2%]'>Built With</h1>
-                    <h1 className=' text-lg  mt-[2%]'>React JS, Tailwind, PostgreSQL, RESTFUL APIs,Django</h1>
-                    
-                    <div className="cta-btns  mt-[5%] flex">
-                        <button className="register-btn bg-[#3D8B83] rounded-lg w-fit px-4 sm:px-3 sm:py-1 py-2 ">
-                                <a href='https://obando.vercel.app/' target="_blank" className="text-white font-bold text-lg text-center">View Site</a>
-                        </button>
-
-                        <button className="register-btn border-[#3D8B83] border-2 rounded-lg w-fit px-4 py-2 ml-[5%] sm:px-3 sm:py-1 ">
-                                <a href='https://github.com/whoissegun/obando' target="_blank" className="text-black font-bold text-lg text-center">View On Github</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-     );
-}
- 
 export default Projects;

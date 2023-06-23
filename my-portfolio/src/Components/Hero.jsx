@@ -1,22 +1,45 @@
-import person from "../assets/personCoding.jpg"
-const Hero = () => {
+import { BsDashLg } from 'react-icons/bs';
+import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
+const Hero = ({atExperience, atProjects}) => {
     return ( 
-        <div className="font-['Poppins'] px-5 relative pb-16">
-
-            <div className="hero-text mt-[10%] sm:mt-[30%] lg:mt-[20%] md:mt-[20%] ">
-                <h1 className="font-bold text-4xl sm:w-fit text-[white]">
-                    Hello, I am Divine
-                </h1>
-                <h1 className="w-[45%] mt-[1%] sm:w-[80%]">I am a passionate Web Developer with a love for problem-solving and creative thinking.</h1>
-
-                <div className="cta-btns  mt-5">
-                    <button className="register-btn bg-[#3D8B83] rounded-lg w-fit px-4 py-2 ">
-                            <a href="https://docs.google.com/document/d/1E0653oAQ5HUMHKZPnoOteC6Q0NCQvm5cBrsoPFCSBvU/edit?usp=sharing"  target="_blank" className="text-white font-bold text-lg text-center">View Resume</a>
-                    </button>
-                </div>
+        <div className="w-full text-slate-200 ">
+            <h1 className=" name-title font-montserrat  font-bold text-4xl">Divine Jojolola</h1>
+            <h1 className="occupation text-2xl font-rubik font-medium bg-[#464555] w-fit  mt-5 xl:mt-3 2xl:mt-3 px-1 ">Web Developer & Machine Learning Engineer</h1>
+            <h1 className="text-lg font-rubik w-fit xl:w-96 2xl:w-96 mt-5">Leveraging my dual expertise as a Web Developer and Machine Learning Engineer to orchestrate symphonies of code and intelligent systems that bring visions to life.</h1>
+            
+            <div className='mt-5'>
+                <a className='text-lg font-ubuntu underline w-fit xl:w-96 2xl:w-96 hover:text-[#7F87F1]' href='https://docs.google.com/document/d/1E0653oAQ5HUMHKZPnoOteC6Q0NCQvm5cBrsoPFCSBvU/edit?usp=sharing' target='_blank'>View Full Resume</a>
             </div>
 
-            <img src={person} alt="" className="rounded-full w-[30%] lg:w-[40%] md:w-[50%] sm:w-[60%] -mt-[15%] sm:mt-0 lg:-mt-[30%] md:-mt-[35%] ml-[50%] sm:ml-[30%]" />
+            
+            <ul className='mt-10 xl:flex 2xl:flex flex-col gap-y-2 hidden'>
+
+                <li className={`flex items-center font-mono ${atExperience? 'text-[#00A3B3]' : ''}`}>
+                    <BsDashLg className='text-3xl' />
+                    <h1 className='font-semibold text-2xl'>Experience</h1>
+                </li>
+
+                <li className={`flex items-center font-mono ${atProjects? 'text-[#00A3B3]' : ''}`}>
+                    <BsDashLg className='text-3xl' />
+                    <h1 className='font-semibold text-2xl'>Projects</h1>
+                </li>
+            </ul>
+            
+            <div className='social-media-icons mt-10 flex gap-x-8'>
+                <a href='https://github.com/whoissegun' target='_blank' rel='noreferrer'>
+                    <AiFillGithub className='text-3xl' />
+                </a>
+
+                <a href='https://www.linkedin.com/in/divine-jojolola-082a5b249/' target='_blank' rel='noreferrer'>
+                    <FaLinkedinIn className='text-3xl' />
+                </a>
+
+                <a href='mailto:jojololadivine05@gmail.com' target='_blank' rel='noreferrer'>
+                    <AiOutlineMail className='text-3xl' />
+                </a>
+            </div>
+            
         </div>
      );
 }
