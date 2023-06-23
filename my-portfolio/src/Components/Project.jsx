@@ -47,7 +47,7 @@ return (
     <div className="w-full text-slate-200 flex flex-col gap-y-32 xl:mt-28 2xl:mt-28 ">
         <h1 className="font-bold text-3xl font-montserrat text-center xl:hidden 2xl:hidden mt-28">Projects</h1>
         {projects.map((project) => (
-            <div key={project.id} className="hover:bg-[#324B4A] hover:cursor-pointer w-fit p-4 rounded-lg flex flex-col 2xl:flex-row gap-y-8 gap-x-16 " onClick={() => openProject(project.link)}>
+            <div key={project.id} className="hover:bg-[#324B4A] hover:cursor-pointer p-4 rounded-lg flex flex-col 2xl:flex-row gap-y-8 flex-wrap gap-x-16 " onClick={() => openProject(project.link)}>
                 <img src={project.image} alt="" className='xl:w-80 2xl:w-80 md:w-96 lg:w-96 w-64' />
                 <div className="">
                     <h1 className="text-2xl font-semibold font-raleway text-white ">{project.title}</h1>
