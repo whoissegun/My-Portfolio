@@ -25,7 +25,7 @@ const experiences = [
 
 const Experience = () => {
     return ( 
-        <div className="w-full gap-y-6 flex flex-col  items-center text-slate-200  h-full">
+        <div className="w-full gap-y-6 flex flex-col  items-center text-slate-200  h-full xl:px-2 2xl:px-2">
             <h1 className="font-bold text-3xl font-montserrat">Experience</h1>
             {experiences.map((experience) => (
                 <div key={experience.id} className="hover:bg-[#444463] w-fit transition-all duration-150  rounded-lg px-3 py-2">
