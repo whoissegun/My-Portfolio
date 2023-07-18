@@ -1,8 +1,9 @@
 import bluew from '../assets/bluew.png'
 import obando from '../assets/obando.png'
 import the_library from '../assets/the_library.png'
-import breat from '../assets/breat.jpg'
+import analysis from '../assets/analysis.jpeg'
 import transport from '../assets/transport.jpeg'
+import crop_classification from '../assets/crop_classification.jpg'
 const Projects = () => {
     const projects = [
         {
@@ -23,19 +24,19 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: 'Breast Cancer Clasification Model',
-            description: 'A machine learning model developed to accurately distinguish between malignant and benign breast cancer cases, utilizing the comprehensive Wisconsin Breast Cancer Dataset for training and validation',
-            image: breat,
-            languages: ['Pytorch', 'Matplotlib', 'Numpy', 'Pandas', 'Scikit-learn'],
-            link: 'https://github.com/whoissegun/Breast-Cancer-Classification-Model'
+            title: 'Vegetable Image Classification Model',
+            description: 'A deep learning model developed to classify images of vegetables into 15 types. It achieved an accuracy of 88 percent. I fine-tuned a pre-trained ResNet50 model to achieve this.',
+            image: crop_classification,
+            languages: ['Pytorch', 'Numpy'],
+            link: 'https://github.com/whoissegun/VEGETABLE-IMAGE-CLASSIFICATION-MODEL'
         },
         {
             id: 4,
-            title: 'Vehicle Recognition Model',
-            description: 'An image classification model built to accurately classify vehicles into 3 categories: cars, airplanes, and ships.',
-            image: transport,
-            languages: ['Pytorch', 'Matplotlib', 'Numpy', 'Pandas', 'Scikit-learn'],
-            link: 'https://github.com/whoissegun/Transport_Vehicle_Recognition_Model/blob/main/Transport_Vehicle_Recognition_Model.ipynb'
+            title: 'Insurance Company Clent Base Analysis',
+            description: 'A data analysis and visualization project on client segmentation based on an insurance companys data.  ',
+            image: analysis,
+            languages: ['Matplotlib', 'Pandas'],
+            link: 'https://github.com/whoissegun/INSURANCE_COMPANY_CLIENT_SEGMENTATION_ANALYSIS'
         }
     ];
 
