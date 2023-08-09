@@ -39,7 +39,7 @@ function App() {
   }, []);
 
   return (
-    <div className='flex flex-col xl:flex-row 2xl:flex-row  bg-[#080519] xl:h-screen 2xl:h-screen  w-screen px-3 xl:px-10 2xl:px-10'>
+    <div className='flex flex-col xl:flex-row 2xl:flex-row  bg-[#080519] xl:h-screen 2xl:h-screen  w-screen px-3 xl:px-10 2xl:px-10 xl:overflow-y-hidden 2xl:overflow-y-hidden'>
       <div className='mt-10 xl:mt-20 2xl:mt-20'>
         <Hero atExperience={atExperience} atProjects={atProjects} />
       </div>

@@ -9,9 +9,9 @@ const Projects = () => {
         {
             id: 1,
             title: 'The Library',
-            description: 'A full-stack library management system with user authentication and authorization, and a REST API for CRUD operations.',
+            description: 'A digital library platform featuring robust user authentication, authorization, and REST APIs for swift CRUD operations. Integrated with advanced systems to vectorize PDFs, it ranks document sections in response to user queries and interprets the relevant sections to offer natural language answers',
             image: the_library,
-            languages: ['Django', 'React', 'Tailwind CSS', 'PostgreSQL'],
+            languages: ['Django', 'React', 'Tailwind CSS', 'PostgreSQL', 'Pinecone', 'Langchain'],
             link: 'https://the-library-virid.vercel.app/'
         },
         {
