@@ -32,11 +32,11 @@ const Projects = () => {
         },
         {
             id: 4,
-            title: 'Insurance Company Clent Base Analysis',
-            description: 'A data analysis and visualization project on client segmentation based on an insurance companys data.  ',
+            title: 'YouTube EDA: Analyzing a Popular Nigerian Content Creator',
+            description: 'A comprehensive exploratory data analysis project that delves into the performance metrics of Korty, a popular Nigerian YouTuber. The project covers video durations, view-to-like ratios, and other key metrics',
             image: analysis,
-            languages: ['Matplotlib', 'Pandas'],
-            link: 'https://github.com/whoissegun/INSURANCE_COMPANY_CLIENT_SEGMENTATION_ANALYSIS'
+            languages: ['Matplotlib', 'Pandas','Python','Youtube API'],
+            link: 'https://github.com/whoissegun/KORTY_YOUTUBE_EDA'
         }
     ];
 
