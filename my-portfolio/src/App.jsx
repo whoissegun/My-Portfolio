@@ -43,11 +43,11 @@ function App() {
       <div className='mt-10 xl:mt-20 2xl:mt-20'>
         <Hero atExperience={atExperience} atProjects={atProjects} />
       </div>
-      <div className='mt-10 xl:mt-40 2xl:mt-40 xl:ml-20 2xl:ml-20 2xl:h-[80vh] xl:h-[80vh] xl:overflow-y-auto 2xl:overflow-y-auto scrollbar ml-2 w-full h-full' ref={scrollableDivRef}>
+      <div className='mt-10 xl:mt-40 2xl:mt-40 xl:ml-20 2xl:ml-20 2xl:h-[80vh] xl:h-[70vh] xl:overflow-y-auto 2xl:overflow-y-auto scrollbar ml-2 w-full h-full' ref={scrollableDivRef}>
         <div ref={experienceRef}>
           <Experience />
         </div>
-        <div ref={projectsRef}>
+        <div ref={projectsRef} className='h-fit overflow-auto'>
           <Projects />
         </div>
       </div>

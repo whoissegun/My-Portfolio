@@ -45,7 +45,7 @@ const Projects = () => {
     }
 
 return (
-    <div className="w-full text-slate-200 flex flex-col gap-y-32 xl:mt-28 2xl:mt-28 ">
+    <div className="w-full text-slate-200 overflow-y-auto h-fit flex flex-col gap-y-32 xl:mt-28 2xl:mt-28 ">
         <h1 className="font-bold text-3xl font-montserrat text-center xl:hidden 2xl:hidden mt-28">Projects</h1>
         {projects.map((project) => (
             <div key={project.id} className="hover:bg-[#324B4A] hover:cursor-pointer p-4 rounded-lg flex flex-col 2xl:flex-row gap-y-8 flex-wrap gap-x-16 " onClick={() => openProject(project.link)}>

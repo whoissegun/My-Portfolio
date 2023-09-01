@@ -3,7 +3,7 @@ const Skills = () => {
     const skillsLeft = ['HTML5', 'CSS3', 'Tailwind CSS', 'Django', 'PyTorch', 'Pandas', 'Scikit-Learn'];
 
     return (
-        <div className="text-xl ml-20 w-[50%] rounded-2xl text-white">
+        <div className="text-xl ml-20 w-[50%] h-full overflow-y-auto rounded-2xl text-white">
             <div className="w-[90%] overflow-hidden">
                 <div className=" whitespace-nowrap">
                     {skillsRight.map((skill, idx) => (
