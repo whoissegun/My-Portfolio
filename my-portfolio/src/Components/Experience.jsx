@@ -11,7 +11,7 @@ const experiences = [
         id: 2,
         title: "Summer Admin Student",
         company: "Fasken Martineau Dumoulin LLP",
-        duration: "June 2023 - Present",
+        duration: "June 2023 - Oct 2023",
         description: "Manage and maintain the company's websites across five countries using HTML, CSS, and JavaScript. Ensure WCAG 2.0 guidelines compliance leading to a 50% increase in site accessibility. Perform routine bug fixes for seamless user experience and collaborated with teams for adherence to accessibility standards."
     },
     {

@@ -3,6 +3,8 @@ import obando from '../assets/obando.png'
 import the_library from '../assets/the_library.png'
 import analysis from '../assets/analysis.jpeg'
 import transport from '../assets/transport.jpeg'
+import art from '../assets/art.png'
+import subscription from '../assets/subscription.jpeg'
 import crop_classification from '../assets/crop_classification.jpg'
 const Projects = () => {
     const projects = [
@@ -14,8 +16,17 @@ const Projects = () => {
             languages: ['Django', 'React', 'Tailwind CSS', 'PostgreSQL', 'Pinecone', 'Langchain'],
             link: 'https://the-library-virid.vercel.app/'
         },
+
         {
-            id: 2,
+            id:2,
+            title: 'Art Exhibition Site',
+            description: "A full-stack art exhibition website with a focus on user experience and functionaliy. It's designed to simulate an art exhibition environment, focusing on efficient management and display of art content. The site features robust backend structuring for managing artworks, users, and interactive elements like reviews and workshops. Emphasizing modularity and scalability, the project integrates user-friendly features such as artist following, artwork reviews, workshop creation and enrollment, mirroring the dynamic interactivity found in popular social media platforms",
+            image: art,
+            languages: ['MongoDB', 'EJS', 'CSS', 'NodeJS', 'ExpressJS'],
+            link: 'art-exhibition-site-production.up.railway.app'
+        },
+        {
+            id: 3,
             title: 'Obando',
             description: 'A restaurant website with a focus on user experience.',
             image: obando,
@@ -23,7 +34,7 @@ const Projects = () => {
             link: 'https://obando.vercel.app/'
         },
         {
-            id: 3,
+            id: 4,
             title: 'Vegetable Image Classification Model',
             description: 'A deep learning model developed to classify images of vegetables into 15 types. It achieved an accuracy of 88 percent. I fine-tuned a pre-trained ResNet50 model to achieve this.',
             image: crop_classification,
@@ -31,12 +42,20 @@ const Projects = () => {
             link: 'https://github.com/whoissegun/VEGETABLE-IMAGE-CLASSIFICATION-MODEL'
         },
         {
-            id: 4,
+            id: 5,
             title: 'YouTube EDA: Analyzing a Popular Nigerian Content Creator',
             description: 'A comprehensive exploratory data analysis project that delves into the performance metrics of Korty, a popular Nigerian YouTuber. The project covers video durations, view-to-like ratios, and other key metrics',
             image: analysis,
             languages: ['Matplotlib', 'Pandas','Python','Youtube API'],
             link: 'https://github.com/whoissegun/KORTY_YOUTUBE_EDA'
+        },
+        {
+            id:6,
+            title: 'Subscription Management System',
+            description: "This application features user registration capabilities, both with and without phone numbers, and handles various subscription types, differentiated by price, resolution, and device accessibility. It includes comprehensive user profile management tools, ensuring secure handling of personal details like email and phone numbers. A standout feature is its thread-safe user ID generation, ensuring robust system performance. Rigorous unit testing, in line with industry best practices, underpins the system's reliability",
+            image: subscription,
+            languages: ['Java'],
+            link: 'https://github.com/whoissegun/SubsCribMaster'
         }
     ];
 
