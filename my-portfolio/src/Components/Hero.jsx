@@ -9,7 +9,7 @@ const Hero = ({atExperience, atProjects}) => {
             <h1 className="text-lg font-rubik w-fit xl:w-96 2xl:w-96 mt-5">Leveraging my dual expertise as a Web Developer and Machine Learning Engineer to orchestrate symphonies of code and intelligent systems that bring visions to life.</h1>
             
             <div className='mt-5'>
-                <a className='text-lg font-ubuntu underline w-fit xl:w-96 2xl:w-96 hover:text-[#7F87F1]' href='https://docs.google.com/document/d/1xTQ1tl8FzIMbnYFAZc72Pctu-6Bm0q_Z/edit?usp=sharing&ouid=107907247373607492018&rtpof=true&sd=true' target='_blank'>View Full Resume</a>
+                <a className='text-lg font-ubuntu underline w-fit xl:w-96 2xl:w-96 hover:text-[#7F87F1]' href='https://docs.google.com/document/d/1pAET-D9xoK3xouWMBPv5Lx-iLTVXAhxzIi_XEB4SD30/edit?usp=sharing' target='_blank'>View Full Resume</a>
             </div>
 
             
