@@ -23,7 +23,7 @@ const Projects = () => {
             description: "A full-stack art exhibition website with a focus on user experience and functionaliy. It's designed to simulate an art exhibition environment, focusing on efficient management and display of art content. The site features robust backend structuring for managing artworks, users, and interactive elements like reviews and workshops. Emphasizing modularity and scalability, the project integrates user-friendly features such as artist following, artwork reviews, workshop creation and enrollment, mirroring the dynamic interactivity found in popular social media platforms",
             image: art,
             languages: ['MongoDB', 'EJS', 'CSS', 'NodeJS', 'ExpressJS'],
-            link: 'art-exhibition-site-production.up.railway.app'
+            link: 'https://art-exhibition-site-production.up.railway.app/'
         },
         {
             id: 3,
