@@ -6,6 +6,7 @@ import transport from '../assets/transport.jpeg'
 import art from '../assets/art.png'
 import subscription from '../assets/subscription.jpeg'
 import crop_classification from '../assets/crop_classification.jpg'
+import server from '../assets/server.jpeg'
 const Projects = () => {
     const projects = [
         {
@@ -56,6 +57,14 @@ const Projects = () => {
             image: subscription,
             languages: ['Java'],
             link: 'https://github.com/whoissegun/SubsCribMaster'
+        },
+        {
+            id: 7,
+            title: 'Multithreaded Chat Server',
+            description: 'A multithreaded chat server in C that supports multiple clients. It features a robust user authentication system and a secure messaging system. The server is designed to handle multiple clients concurrently, ensuring a seamless user experience. ',
+            image: server,
+            languages: ['C'],
+            link: 'https://github.com/whoissegun/chat-server',
         }
     ];
 

@@ -3,7 +3,7 @@ const experiences = [
         id: 1,
         title: "Frontend Web Developer",
         company: "Khoomi",
-        duration: "July 2023 - Present",
+        duration: "July 2023 - Jan 2024",
         description: "Develop user-friendly using Tailwind, TypeScript, and Next.js. Utilize Google Analytics to gather valuable user behavior data, enabling data-driven optimizations that result in a significant 15% increase in conversion rates. Strategically distribute the workload between Next.js API endpoints and backend API endpoints, resulting in a remarkable 30% decrease in response time. This approach ensures optimal performance for users while preventing backend overload."
     },
     
